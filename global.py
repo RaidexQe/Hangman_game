@@ -5,10 +5,14 @@
 # my()
 # print ("my name is " + himal )   
 
-himal = "apple"
-a = len(himal)
-display = '_' * a
-print (a)
-print (display)
-guess = input("This is the Hangman Word: " + display + " Enter your guess: \n")
-guess = guess.strip()
+# himal = "apple"
+# a = len(himal)
+# display = '_' * a
+# print (a)
+# print (display)
+# guess = input("This is the Hangman Word: " + display + " Enter your guess: \n")
+# guess = guess.strip()
+
+a = "hellow my name is himal "
+b = a.find("himal")
+print (b)
